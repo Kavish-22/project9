@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "business_categories",
+  "info": {
+    "singularName": "business-category",
+    "pluralName": "business-categories",
+    "displayName": "BusinessCategory"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "icon_url": {
+      "type": "string"
+    },
+    "is_featured": {
+      "type": "boolean",
+      "default": false
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}
